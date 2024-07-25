@@ -8,6 +8,7 @@ def lastDay(year,month):
     m[1] = 29
   else:
     m[1] = 28
+  return m[month - 1]
 
 def totalDay(year, month, day):
   #1년 1월 1일 부터 전 년도 12월 31일까지 지난 날짜를 계산한다.
